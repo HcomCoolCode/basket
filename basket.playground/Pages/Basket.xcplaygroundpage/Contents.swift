@@ -33,5 +33,5 @@ XCTAssertEqual(0.12, bananaSnack.total)
 // test that basket with items has correct price
 let basketOfBananas = Basket(items: [Banana(),Banana(),Banana()])
 XCTAssertNotNil(basketOfBananas.total)
-XCTAssertEqual(1.86, basketOfBananas.total)
+XCTAssertEqual(0.36, basketOfBananas.total)
 
